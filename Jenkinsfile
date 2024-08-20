@@ -1,4 +1,5 @@
 pipeline {
+  agent any
   environment {
     DIRECTORY_PATH = "/Users/darren/Developer/Jenkins/SIT223-5.1P/source-code"
     TESTING_ENVIRONMENT = "5.2P"
